@@ -20,6 +20,8 @@ Docker ENV Setup, the output port , PHP port and Xdebug port can be set.
 `docker compose up -d --build` build is only required at the initial time
 
 ## Write Permission for logs folder
+
+Here you can clone the Laravel project to src folder
 Run the below commands from the  `project_folder/src`  of the project using CLI
 
 `chmod -R 777 storage/ bootstrap/cache`
@@ -79,7 +81,7 @@ docker network create DockerNet
 
 docker network connect DockerNet postgres
 
-docker network connect DockerNet TELE-MD-API-php
+docker network connect DockerNet PHP_CONTAINER_NAME
 
 docker network inspect DockerNet
 

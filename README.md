@@ -4,7 +4,7 @@ To get started, make sure you have [Docker installed](https://docs.docker.com/do
 
 ## Setup
 
-Docker ENV Setup, the output port , PHP port and Xdebug port can be set.
+Docker ENV Setup, the output port , PHP , Mailhog , Xdebug ports can be set.
 
 `cp .env.example .env`
 
